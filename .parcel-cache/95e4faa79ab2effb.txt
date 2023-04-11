@@ -1,4 +1,4 @@
-4372
+4386
 94/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/img/logo.png1644221921000000000 0
 85/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/img1644221921000000000 1
 99/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/sass/_recipe.scss1644221921000000000 0
@@ -7,10 +7,15 @@
 106/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/sass/_searchResults.scss1644221921000000000 0
 86/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/sass1644221921000000000 1
 81/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src1644221921000000000 1
+104/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.62406edb.js.map1681217187971162324 0
+101/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/icons.dfd7a6db.svg1681235790644613504 0
+102/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/forkify.3464ddca.js1681196225235927594 0
+101/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/icons.21bad73c.svg1681235790644613504 0
+100/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.e37f48ea.js1681237938161018857 0
 106/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/forkify-flowchart-part-3.png1644221921000000000 0
 106/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/forkify-flowchart-part-2.png1644221921000000000 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/forkify-architecture-recipe-loading.png1644221921000000000 0
-88/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/index.html1644221921000000000 0
+88/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/index.html1681235787489919256 0
 121/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/regenerator-runtime/runtime.js1681159349184707477 0
 110/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/regenerator-runtime1681159349308714538 1
 114/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/dotenv-expand/README.md1681159349256711577 0
@@ -48,7 +53,7 @@
 148/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/package.json1681159349080701555 0
 156/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/node.napi.glibc.node1681159349476724104 0
 135/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@msgpackr-extract/msgpackr-extract-linux-x641681159349520726609 1
-108/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@msgpackr-extract1681159527097494886 1
+108/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@msgpackr-extract1681159564151127329 1
 110/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/detect-libc/LICENSE1681159349256711577 0
 113/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/detect-libc/.npmignore1681159349092702239 0
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/lightningcss-linux-x64-gnu/README.md1681159349104702922 0
@@ -64,6 +69,7 @@
 115/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/abortcontroller-polyfill1681159349944750752 1
 113/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/safe-buffer/index.d.ts1681159349392719321 0
 102/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/safe-buffer1681159349304714310 1
+105/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.f7626f62.css.map1681235790656623376 0
 113/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/yaml/browser/schema.js1681159350356774166 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/yaml/browser/dist/index.js1681159349620732303 0
 121/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/yaml/browser/dist/package.json1681159350460780074 0
@@ -261,6 +267,7 @@
 118/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/lexer/trace.js1681159350956808254 0
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/lexer/prepare-tokens.js1681159350888804390 0
 109/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/lexer1681159350956808254 1
+93/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.html1681235790644613504 0
 112/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/index.js1681159350708794164 0
 126/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/common/adopt-buffer.js1681159349152705655 0
 130/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/common/OffsetToLocation.js1681159350860802799 0
@@ -345,6 +352,7 @@
 116/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace/color.js1681159350040756214 0
 116/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace/Value.js1681159350528783938 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace/String.js1681159350480781211 0
+101/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.f7626f62.css1681235790644613504 0
 128/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace/AttributeSelector.js1681159349788741869 0
 140/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-tree/lib/syntax/pseudo/common/selectorList.js1681159350924806436 0
 114/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace/Url.js1681159350488781665 0
@@ -541,6 +549,7 @@
 124/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/update-browserslist-db/index.d.ts1681159349392719321 0
 113/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/update-browserslist-db1681159349340716360 1
 108/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/boolbase/index.js1681159349092702239 0
+104/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.e37f48ea.js.map1681237938161018857 0
 109/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/boolbase/README.md1681159349080701555 0
 99/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/boolbase1681159349080701555 1
 108/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/chokidar/index.js1681159524693387579 0
@@ -1026,7 +1035,7 @@
 129/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@babel/highlight/node_modules/has-flag1681159349128704289 1
 116/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/css-select/lib/index.d.ts1681159350208765758 0
 144/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@babel/highlight/node_modules/supports-color/index.js1681159349132704516 0
-98/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/js/controller.js1644221921000000000 0
+98/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/src/js/controller.js1681237938113015668 0
 146/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@babel/highlight/node_modules/supports-color/browser.js1681159349092702239 0
 148/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@babel/highlight/node_modules/supports-color/package.json1681159349076701327 0
 135/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@babel/highlight/node_modules/supports-color1681159349212709072 1
@@ -1143,7 +1152,7 @@
 111/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/safe-buffer/index.js1681159349084701784 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/graph/src/types.js1681159350072758032 0
 125/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/graph/src/AdjacencyList.js1681159349532727292 0
-95/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/package-lock.json1681159527241501306 0
+95/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/package-lock.json1681159564251131685 0
 120/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/react-refresh/build-info.json1681159349596730937 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/graph/package.json1681159350080758486 0
 117/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/graph/lib/index.js1681159349992753485 0
@@ -1243,7 +1252,7 @@
 114/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/src/public1681159351028812340 1
 125/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/src/serializerCore.js1681159351008811207 0
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/src/projectPath.js1681159350936807117 0
-109/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/.package-lock.json1681159527281503090 0
+109/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/.package-lock.json1681159564315134473 0
 110/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/type-fest/base.d.ts1681159349420720915 0
 105/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/README.md1681159350552785301 0
 167/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob1681159351068814608 1
@@ -1322,6 +1331,7 @@
 99/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/get-port1681159349204708616 1
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/dist/unpacker/region.js1681159351508839549 0
 131/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/ogg-vorbis.js1681159351476837736 0
+103/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/favicon.8b2f57bf.png1681235790716672733 0
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/dist/unpacker/agents.js1681159350092759168 0
 129/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/dist/unpacker/features.js1681159351288827079 0
 136/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/packager-js/lib/GlobalOutputFormat.js1681159349632732987 0
@@ -1495,6 +1505,7 @@
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/MV.js1681159351456836602 0
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/AD.js1681159349688736176 0
 104/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/htmlnano/docs1681159350728795300 1
+82/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist1681237938165019122 1
 120/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/v8-compile-cache/CHANGELOG.md1681159349268712260 0
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/AI.js1681159350100759622 0
 125/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/dist/lib/supported.js1681159351596844538 0
@@ -1503,6 +1514,7 @@
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/BH.js1681159350548785074 0
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/BG.js1681159350544784847 0
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/AX.js1681159350436778711 0
+106/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/forkify.3464ddca.js.map1681196225239927529 0
 139/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest.c1681159350732795527 0
 116/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/watcher/src/macos1681159350108760077 1
 122/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/regions/CN.js1681159350772797800 0
@@ -1676,7 +1688,7 @@
 140/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest2.c1681159350744796209 0
 112/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/ansi-styles/readme.md1681159349176707022 0
 138/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/channel-messaging.js1681159350724795073 0
-90/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules1681159527113495599 1
+90/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules1681159564151127329 1
 139/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/link-rel-prerender.js1681159351420834561 0
 129/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/src/public/Environment.js1681159350672792119 0
 139/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/css-color-function.js1681159350916805981 0
@@ -2311,7 +2323,7 @@
 143/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/css-background-offsets.js1681159350872803482 0
 112/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/msgpackr/benchmark.md1681159350656791210 0
 123/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/term-size/vendor/macos/term-size1681159349344716588 0
-77/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify1681159433753151545 1
+77/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify1681159573935499705 1
 128/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/resolver-default/package.json1681159349312714766 0
 134/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/tabindex-attr.js1681159351608845218 0
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/source-map/dist/node.js.flow1681159349088702011 0
@@ -3159,7 +3171,7 @@
 127/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/stream.js1681159351592844311 0
 99/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/has-flag1681159349164706338 1
 108/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/has-flag/index.js1681159349096702467 0
-96/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@lmdb1681159527097494886 1
+96/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@lmdb1681159564151127329 1
 132/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/caniuse-lite/data/features/user-timing.js1681159351840858369 0
 158/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/test/fixtures/targets-default-distdir-two/package.json1681159351236824131 0
 115/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@swc/helpers/lib/_get.js1681159350248768030 0
@@ -3509,6 +3521,7 @@
 135/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/workers/lib/process/ProcessWorker.js1681159350108760077 0
 99/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/lmdb/src1681159350932806890 1
 180/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-up/foo1681159351140818690 1
+100/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/logo.726d37a8.png1681235790720676023 0
 119/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/htmlparser2/lib/Tokenizer.js1681159349472723876 0
 166/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/package-manager/test/fixtures/has-foo/node_modules/foo/package.json1681159350528783938 0
 135/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/hash/parcel-hash.linux-x64-musl.node1681159350784798482 0
@@ -4292,6 +4305,7 @@
 154/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/package.json1681159351192821637 0
 167/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/msgpackr-extract/node_modules/.bin/node-gyp-build-optional-packages-optional1681159353768967338 0
 154/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/src/index.js1681159350692793255 0
+100/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/dist/index.62406edb.js1681217187931162316 0
 142/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/test/fixtures/main-global/package.json1681159351220823224 0
 107/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/csso/lib/replace1681159350524783711 1
 139/home/yenom/Desktop/allFiles/finalBackup/BeginingOfJavascript/forkify/forkify/node_modules/@parcel/core/test/fixtures/common-targets-ignore1681159351144818916 1
