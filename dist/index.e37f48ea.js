@@ -558,7 +558,9 @@ function hmrAccept(bundle, id) {
 
 },{}],"aenu9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _esRegexpFlagsJs = require("core-js/modules/es.regexp.flags.js");
+var _esRegexpFlagsJs = require("core-js/modules/es.regexp.flags.js"); // showRecipe();
+ // window.addEventListener('hashchange',showRecipe)
+ // window.addEventListener('load',showRecipe)
 var _webImmediateJs = require("core-js/modules/web.immediate.js");
 var _iconsSvg = require("url:../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
@@ -701,8 +703,11 @@ const showRecipe = async function() {
         alert(error);
     }
 };
-// showRecipe();
-window.addEventListener("hashchange", showRecipe);
+const ch = [
+    "hashchange",
+    "load"
+];
+ch.forEach((ev)=>window.addEventListener(ev, showRecipe));
 
 },{"url:../img/icons.svg":"loVOp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","core-js/modules/es.regexp.flags.js":"gSXXb","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ"}],"loVOp":[function(require,module,exports) {
 module.exports = require("2481018f0055cb7d").getBundleURL("hWUTQ") + "icons.dfd7a6db.svg" + "?" + Date.now();
