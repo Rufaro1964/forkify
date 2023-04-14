@@ -565,6 +565,19 @@ var _webImmediateJs = require("core-js/modules/web.immediate.js");
 var _iconsSvg = require("url:../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _runtime = require("regenerator-runtime/runtime");
+// dotenv = require('dotenv-safe');
+// dotenv.config({
+//   allowEmptyValues:true,
+//   example:'./.env.example'
+// });
+// if(result.error){
+//   throw result.error;
+// }
+// const env = result.parsed;
+// for(const key in evv){
+//   process.env[key] = env[key];
+// }
+// const apiKey = process.env.API_KEY;
 console.log((0, _iconsSvgDefault.default));
 const recipeContainer = document.querySelector(".recipe");
 const timeout = function(s) {
@@ -591,6 +604,7 @@ const showRecipe = async function() {
     try {
         const id = window.location.hash.slice(1);
         console.log(id);
+        if (!id) return;
         //Loading recipe
         renderSpinner(recipeContainer);
         const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);

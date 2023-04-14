@@ -10,11 +10,16 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
+    "os-browserify": "^0.3.0",
     "parcel": "^2.8.3",
-    "process": "^0.11.10"
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "util": "^0.12.5"
   },
   "dependencies": {
     "core-js": "^3.30.0",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
     "regenerator-runtime": "^0.13.11"
   }
 }

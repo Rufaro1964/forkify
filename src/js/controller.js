@@ -1,7 +1,22 @@
 import icons from 'url:../img/icons.svg';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+// dotenv = require('dotenv-safe');
 
+// dotenv.config({
+//   allowEmptyValues:true,
+//   example:'./.env.example'
+// });
+
+// if(result.error){
+//   throw result.error;
+// }
+// const env = result.parsed;
+// for(const key in evv){
+//   process.env[key] = env[key];
+// }
+
+// const apiKey = process.env.API_KEY;
 console.log(icons);
 const recipeContainer = document.querySelector('.recipe');
 
@@ -27,6 +42,7 @@ const markup =`
 `;
 parentEl.innerHTML='';
 parentEl.insertAdjacentHTML('afterbegin',markup);
+
 }
 
 
@@ -34,6 +50,7 @@ const showRecipe = async function(){
   try {
     const id = window.location.hash.slice(1);
     console.log(id);
+     if(!id) return;
     //Loading recipe
     renderSpinner(recipeContainer);
   const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
