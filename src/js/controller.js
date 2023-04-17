@@ -1,26 +1,12 @@
 import * as model from './model.js';
 import recipeView  from './views/recipeView.js';
 
+
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-// dotenv = require('dotenv-safe');
 
-// dotenv.config({
-//   allowEmptyValues:true,
-//   example:'./.env.example'
-// });
 
-// if(result.error){
-//   throw result.error;
-// }
-// const env = result.parsed;
-// for(const key in evv){
-//   process.env[key] = env[key];
-// }
-
-// const apiKey = process.env.API_KEY;
-
-const recipeContainer = document.querySelector('.recipe');
+//const recipeContainer = document.querySelector('.recipe');
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -56,7 +42,3 @@ const controlRecipes = async function(){
 
 const ch = ['hashchange','load']
 ch.forEach(ev => window.addEventListener(ev,controlRecipes));
-// controlRecipes();
-
-// window.addEventListener('hashchange',controlRecipes)
-// window.addEventListener('load',controlRecipes)

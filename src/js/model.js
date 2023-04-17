@@ -1,4 +1,4 @@
-import { async } from "regenerator-runtime"
+import { async } from "regenerator-runtime";
 
 export const state = {
     recipe:{},
