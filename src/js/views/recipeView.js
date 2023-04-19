@@ -112,7 +112,7 @@ class RecipeView{
    
 
 }
-
+//handles event listener
 addHandlerRender(handler){
 
   const ch = ['hashchange','load']
