@@ -560,6 +560,7 @@ function hmrAccept(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _esRegexpFlagsJs = require("core-js/modules/es.regexp.flags.js");
 var _webImmediateJs = require("core-js/modules/web.immediate.js");
+var _regeneratorRuntime = require("regenerator-runtime");
 var _modelJs = require("./model.js");
 var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
@@ -582,12 +583,21 @@ const controlRecipes = async function() {
         (0, _recipeViewJsDefault.default).renderError();
     }
 };
+const controlSearchResults = async function() {
+    try {
+        await _modelJs.loadSearchResults("pizza");
+        console.log(_modelJs.state.search.results);
+    } catch (err) {
+        console.log(err);
+    }
+};
+controlSearchResults();
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
 };
 init();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC","core-js/modules/es.regexp.flags.js":"gSXXb","core-js/modules/web.immediate.js":"49tUX"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC","core-js/modules/es.regexp.flags.js":"gSXXb","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime":"dXNgZ"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -1216,7 +1226,11 @@ var _helpersJs = require("./helpers.js");
 var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
 const state = {
-    recipe: {}
+    recipe: {},
+    search: {
+        query: "",
+        results: []
+    }
 };
 const loadRecipe = async function(id) {
     try {
@@ -1241,8 +1255,18 @@ const loadRecipe = async function(id) {
 };
 const loadSearchResults = async function(query) {
     try {
+        state.search.query = query;
         const data = await (0, _helpersJs.getJSON)(`${(0, _configJs.API_URL)}/?search=${query}`);
         console.log(data);
+        state.search.results = data.data.recipes.map((rec)=>{
+            return {
+                id: rec.id,
+                title: rec.title,
+                publisher: rec.publisher,
+                image: rec.image_url
+            };
+        });
+        console.log(state.search.results);
     } catch (error) {
         console.error(`${error} ****`);
         throw error;
@@ -1286,7 +1310,7 @@ const getJSON = async function(url) {
     }
 };
 
-},{"regenerator-runtime":"dXNgZ","./config":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l60JC":[function(require,module,exports) {
+},{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config":"k5Hzs"}],"l60JC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");

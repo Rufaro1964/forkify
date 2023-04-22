@@ -1,3 +1,4 @@
+import { async } from 'regenerator-runtime';
 import * as model from './model.js';
 import recipeView  from './views/recipeView.js';
 
@@ -34,6 +35,16 @@ const controlRecipes = async function(){
     recipeView.renderError();
   }
 };
+
+const controlSearchResults = async function(){
+try {
+  await model.loadSearchResults('pizza');
+  console.log(model.state.search.results);
+} catch (err) {
+  console.log(err);
+}
+}
+controlSearchResults();
 
 const init = function(){
 recipeView.addHandlerRender(controlRecipes);
