@@ -564,14 +564,13 @@ var _regeneratorRuntime = require("regenerator-runtime");
 var _modelJs = require("./model.js");
 var _recipeViewJs = require("./views/recipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
+var _searchViewJs = require("./views/searchView.js");
+var _searchViewJsDefault = parcelHelpers.interopDefault(_searchViewJs);
 var _runtime = require("regenerator-runtime/runtime");
-//const recipeContainer = document.querySelector('.recipe');
-// https://forkify-api.herokuapp.com/v2
-///////////////////////////////////////
 const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
-        console.log(id);
+        // console.log(id);
         if (!id) return;
         (0, _recipeViewJsDefault.default).renderSpinner();
         //Loading recipe
@@ -585,19 +584,21 @@ const controlRecipes = async function() {
 };
 const controlSearchResults = async function() {
     try {
-        await _modelJs.loadSearchResults("pizza");
+        const query = (0, _searchViewJsDefault.default).getQuery();
+        if (!query) return;
+        await _modelJs.loadSearchResults(query);
         console.log(_modelJs.state.search.results);
     } catch (err) {
         console.log(err);
     }
 };
-controlSearchResults();
 const init = function() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
+    (0, _searchViewJsDefault.default).addHandlerSearch(controlSearchResults);
 };
 init();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC","core-js/modules/es.regexp.flags.js":"gSXXb","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime":"dXNgZ"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC","core-js/modules/es.regexp.flags.js":"gSXXb","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime":"dXNgZ","./views/searchView.js":"9OQAM"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -1266,13 +1267,12 @@ const loadSearchResults = async function(query) {
                 image: rec.image_url
             };
         });
-        console.log(state.search.results);
+    // console.log(state.search.results);
     } catch (error) {
         console.error(`${error} ****`);
         throw error;
     }
 };
-loadSearchResults("pizza");
 
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config.js":"k5Hzs","./helpers.js":"hGI1E","./views/recipeView.js":"l60JC"}],"k5Hzs":[function(require,module,exports) {
 // export const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes';
@@ -3151,6 +3151,23 @@ module.exports = function(scheduler, hasTimeArg) {
 },{"f9a17f4331c3f4bd":"i8HOC","bbb7e818cb1b3854":"148ka","ac071e39f3e7305a":"l3Kyn","b42e4e52a1e39253":"2BA6V","9a7f72a4d438e9c4":"73xBt","754990d1fb3a762b":"RsFXo","b848cddbb9dbf17e":"b9O3D"}],"2BA6V":[function(require,module,exports) {
 /* global Bun -- Deno case */ module.exports = typeof Bun == "function" && Bun && typeof Bun.version == "string";
 
-},{}]},["d8XZh","aenu9"], "aenu9", "parcelRequire3a11")
+},{}],"9OQAM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class SearchView {
+    #parentEl = document.querySelector(".search");
+    getQuery() {
+        return this.#parentEl.querySelector(".search__field").value;
+    }
+    addHandlerSearch(handler) {
+        this.#parentEl.addEventListener("submit", function(e) {
+            e.preventDefault();
+            handler();
+        });
+    }
+}
+exports.default = new SearchView();
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["d8XZh","aenu9"], "aenu9", "parcelRequire3a11")
 
 //# sourceMappingURL=index.e37f48ea.js.map
