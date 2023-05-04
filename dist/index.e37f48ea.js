@@ -579,6 +579,7 @@ const controlRecipes = async function() {
         await _modelJs.loadRecipe(id);
         // const {recipe} = model.state; 
         //2)Rendering recipe
+        (0, _recipeViewJsDefault.default)._clear();
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (error) {
         (0, _recipeViewJsDefault.default).renderError();
@@ -587,6 +588,7 @@ const controlRecipes = async function() {
 const controlSearchResults = async function() {
     try {
         (0, _resultsViewJsDefault.default).renderSpinner();
+        (0, _resultsViewJsDefault.default)._clear();
         //1) Get search query
         const query = (0, _searchViewJsDefault.default).getQuery();
         if (!query) return;
