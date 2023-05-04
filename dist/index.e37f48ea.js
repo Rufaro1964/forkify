@@ -3194,6 +3194,8 @@ exports.default = new SearchView();
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cSbZE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _view = require("./View");
 var _viewDefault = parcelHelpers.interopDefault(_view);
 class ResultsView extends (0, _viewDefault.default) {
@@ -3202,19 +3204,19 @@ class ResultsView extends (0, _viewDefault.default) {
         console.log(this._data);
         return this._data.map(this._generateMarkupPreview).join("");
     }
-    _generateMarkupPreview() {
+    _generateMarkupPreview(result) {
         return `
     <li class="preview">
-            <a class="preview__link preview__link--active" href="#23456">
+            <a class="preview__link preview__link--active" href="#${result.id}">
               <figure class="preview__fig">
-                <img src="src/img/test-1.jpg" alt="Test" />
+                <img src="${result.image}" alt="Test" />
               </figure>
               <div class="preview__data">
-                <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
-                <p class="preview__publisher">The Pioneer Woman</p>
+                <h4 class="preview__title">${result.title}</h4>
+                <p class="preview__publisher">${result.publisher}</p>
                 <div class="preview__user-generated">
                   <svg>
-                    <use href="src/img/icons.svg#icon-user"></use>
+                    <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
                   </svg>
                 </div>
               </div>
@@ -3225,6 +3227,6 @@ class ResultsView extends (0, _viewDefault.default) {
 }
 exports.default = new ResultsView();
 
-},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["d8XZh","aenu9"], "aenu9", "parcelRequire3a11")
+},{"./View":"5cUXS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp"}]},["d8XZh","aenu9"], "aenu9", "parcelRequire3a11")
 
 //# sourceMappingURL=index.e37f48ea.js.map
