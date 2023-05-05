@@ -569,6 +569,7 @@ var _searchViewJsDefault = parcelHelpers.interopDefault(_searchViewJs);
 var _resultsViewJs = require("./views/resultsView.js");
 var _resultsViewJsDefault = parcelHelpers.interopDefault(_resultsViewJs);
 var _runtime = require("regenerator-runtime/runtime");
+if (module.hot) module.hot.accept();
 const controlRecipes = async function() {
     try {
         const id = window.location.hash.slice(1);
@@ -2766,9 +2767,7 @@ class RecipeView extends (0, _viewDefault.default) {
           </div>
 
           <div class="recipe__user-generated">
-            <svg>
-              <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
-            </svg>
+           
           </div>
           <button class="btn--round">
             <svg class="">
@@ -3118,6 +3117,8 @@ var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
     _data;
     render(data) {
+        //checking if the data we recive is empty or there is data and guiding againest it being empty
+        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const markup = this._generateMarkup();
         this._clear;
@@ -3200,6 +3201,8 @@ var _view = require("./View");
 var _viewDefault = parcelHelpers.interopDefault(_view);
 class ResultsView extends (0, _viewDefault.default) {
     _parentElement = document.querySelector(".results");
+    _errorMessage = "No recipes found for your query ! Please try again ;) ";
+    _message = "";
     _generateMarkup() {
         console.log(this._data);
         return this._data.map(this._generateMarkupPreview).join("");
@@ -3207,18 +3210,13 @@ class ResultsView extends (0, _viewDefault.default) {
     _generateMarkupPreview(result) {
         return `
     <li class="preview">
-            <a class="preview__link preview__link--active" href="#${result.id}">
+            <a class="preview__link" href="#${result.id}">
               <figure class="preview__fig">
-                <img src="${result.image}" alt="Test" />
+                <img src="${result.image}" alt="${result.title}" />
               </figure>
               <div class="preview__data">
                 <h4 class="preview__title">${result.title}</h4>
                 <p class="preview__publisher">${result.publisher}</p>
-                <div class="preview__user-generated">
-                  <svg>
-                    <use href="${0, _iconsSvgDefault.default}#icon-user"></use>
-                  </svg>
-                </div>
               </div>
             </a>
           </li>
