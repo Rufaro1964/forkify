@@ -601,7 +601,7 @@ const controlSearchResults = async function() {
         // console.log(model.state.search.results);
         // render all the results : resultsView.render(model.state.search.results);
         //renders maximum of 10 
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(3));
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
         // //4 Render intial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
@@ -3270,9 +3270,6 @@ class PaginationView extends (0, _viewDefault.default) {
     _generateMarkup() {
         const curpage = this._data.page;
         const numPages = Math.ceil(this._data.results.length / this._data.resultsPerPage);
-        console.log(numPages);
-        console.log(curpage);
-        console.log("generate call");
         //Page 1, and there are other pages
         if (curpage === 1 && numPages > 1) return `
          <button data-goto="${curpage + 1}" class="btn--inline pagination__btn--next">

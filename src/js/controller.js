@@ -46,7 +46,7 @@ try {
   // console.log(model.state.search.results);
   // render all the results : resultsView.render(model.state.search.results);
   //renders maximum of 10 
-  resultsView.render(model.getSearchResultsPage(3));
+  resultsView.render(model.getSearchResultsPage());
   // //4 Render intial pagination buttons
   paginationView.render(model.state.search);
 
