@@ -25,6 +25,7 @@ const controlRecipes = async function(){
     //2)Rendering recipe
     recipeView._clear();
     recipeView.render(model.state.recipe);
+  
     
   } catch (error) {
     
@@ -46,7 +47,7 @@ try {
   // console.log(model.state.search.results);
   // render all the results : resultsView.render(model.state.search.results);
   //renders maximum of 10 
-  resultsView.render(model.getSearchResultsPage(3));
+  resultsView.render(model.getSearchResultsPage());
   // //4 Render intial pagination buttons
   paginationView.render(model.state.search);
 
@@ -63,10 +64,18 @@ const controlPagination = function(goToPage){
   paginationView.render(model.state.search);
 }
 
+const controlServings = function(newServings){
+//Update the recipe servings (in state)
+model.updateServings(newServings);
+//Update the recipe view
+recipeView.render(model.state.recipe);
+};
 const init = function(){
 recipeView.addHandlerRender(controlRecipes);
+recipeView.addHanderUpdateServings(controlServings);
 searchView.addHandlerSearch(controlSearchResults);
 paginationView.addHandlerClick(controlPagination);
+
 }
 
 init();

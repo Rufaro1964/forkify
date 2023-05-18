@@ -18,9 +18,7 @@ addHandlerClick(handler){
 _generateMarkup(){
 const curpage = this._data.page;
 const numPages = Math.ceil(this._data.results.length /this._data.resultsPerPage);
-console.log(numPages);
-console.log(curpage);
-console.log("generate call");
+
 //Page 1, and there are other pages
 if(curpage === 1 && numPages > 1){
     return `
