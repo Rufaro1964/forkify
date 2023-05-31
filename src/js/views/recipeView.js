@@ -20,7 +20,7 @@ addHanderUpdateServings(handler){
 const btn = e.target.closest('.btn--update-servings');
 if(!btn) return;
 const { updateTo } = btn.dataset;
-if( +updateTo > 0)handler( +updateTo );
+if( +updateTo > 0)handler( +updateTo);
   });
 };
     

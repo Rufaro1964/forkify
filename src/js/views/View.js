@@ -4,13 +4,40 @@ export default class View{
     _data;
     render(data){
       //checking if the data we recive is empty or there is data and guiding againest it being empty
-      if(!data || (Array.isArray(data) && data.length === 0)) return this.renderError();
+      // if(!data || (Array.isArray(data) && data.length === 0)) return this.renderError();
         this._data = data;
         const markup = this._generateMarkup();
         this._clear();
          this._parentElement.insertAdjacentHTML('afterbegin',markup);
 }
 
+update(data){
+  //checking if the data we recive is empty or there is data and guiding againest it being empty
+  if(!data || (Array.isArray(data) && data.length === 0)) return this.renderError();
+  this._data = data;
+  const newMarkup = this._generateMarkup();
+
+  const newDom = document.createRange().createContextualFragment(newMarkup);
+
+  const newElement =Array.from( newDom.querySelectorAll('*'));
+  const curElements = Array.from(this._parentElement.querySelectorAll('*'));
+  
+
+  newElement.forEach((newEl,i)=>{
+    const curEl = curElements[i];
+    console.log(curEl, newEl.isEqualNode(curEl));
+   //Updates changed Text
+    if(!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !==''){
+      curEl.textContent = newEl.textContent;
+    }
+//Updates changed attributes 
+    if(!newEl.isEqualNode(curEl))
+      Array.from(newEl.attributes).forEach(attr =>
+        curEl.setAttribute(attr.name,attr.value)
+        );
+    
+  });
+}
 _clear(){
     this._parentElement.innerHTML = '';
 }
